@@ -76,11 +76,11 @@
 
 	.row,
 	.hero-text{
-		padding: 0 4%;
+		padding: 0 1.5%;
 	}
 	.hero-text h1{
 		width: 100%;
-		font-size: 3rem;
+		font-size: 2.8rem;
 	}
 	.hero-text p {
 		width: 80%;
