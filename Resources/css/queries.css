@@ -72,15 +72,20 @@
 		font-size: 16px;
 	}
 	
-	.hero-text p {
-		width: 70%;
-	}
+	
 
 	.row,
 	.hero-text{
 		padding: 0 4%;
 	}
-
+	.hero-text h1{
+		width: 100%;
+		font-size: 3rem;
+	}
+	.hero-text p {
+		width: 80%;
+		font-size: 1.4rem;
+	}
 	.col {
 		width: 100%;
 		margin: 0 0 4% 0;
