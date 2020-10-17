@@ -80,11 +80,12 @@
 	}
 	.hero-text h1{
 		width: 100%;
-		font-size: 3rem;
+		font-size: 3.2rem;
 	}
 	.hero-text p {
 		width: 80%;
-		font-size: 1.4rem;
+		font-size: 1.8rem;
+		line-height: 30px;
 	}
 	.col {
 		width: 100%;
