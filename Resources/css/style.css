@@ -22,54 +22,6 @@ html,body{
 	color: #232323;
 }
 
-.my-website{
-	display: none;
-}
-
-/*-------------------*/
-/* Loader */
-/*-------------------*/
-.loader{
-	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
-	position: absolute;
-	background-image: -o-linear-gradient(
-		              45deg,
-		              rgba(27, 178, 254),
-		              rgba(0, 131, 238)
-		              );
-	background-image: linear-gradient(
-		              45deg,
-		              rgba(27, 178, 254),
-		              rgba(0, 131, 238)
-		              );
-}
-
-.loader>img{
-	position: absolute;
-	margin: auto;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	-webkit-animation: spin 5s infinite linear;
-	        animation: spin 5s infinite linear;
-}
-
-@-webkit-keyframes spin{
-	100%{
-		-webkit-transform: rotate(360deg);
-		        transform: rotate(360deg);
-	}
-}
-
-@keyframes spin{
-	100%{
-		-webkit-transform: rotate(360deg);
-		        transform: rotate(360deg);
-	}
-}
 
 
 
