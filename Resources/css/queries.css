@@ -80,12 +80,13 @@
 	}
 	.hero-text h1{
 		width: 100%;
-		font-size: 3.2rem;
+		font-size: 3.5rem;
 	}
 	.hero-text p {
 		width: 80%;
 		font-size: 2rem;
 		line-height: 25px;
+		margin-bottom: 5rem;
 	}
 	.col {
 		width: 100%;
@@ -137,9 +138,7 @@
 		margin-top: 3.5rem;
 	}
 
-	.hero-text p{
-		margin-bottom: 5rem;
-	}
+	
 	.navigation li a:link,
 	.navigation li a:visited{
 		font-size: 16px;
