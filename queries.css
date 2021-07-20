@@ -1,0 +1,156 @@
+/* Medium Devices: Tablets */
+@media only screen and (max-width: 991px) {
+    /* body{
+        background-color: orange;
+    }  */
+    button,
+    p{
+        font-size: 1.7rem;
+    }
+	html {
+		font-size: 56.25%
+	}
+    #logo,
+    nav a{
+        font-size: 2rem;
+    }
+    header{
+        grid-template-columns: 1fr;
+    }
+    header img{
+        grid-row: 1;
+    }
+    section .row{
+        flex-direction: column;
+    }
+    section{
+        padding: 5rem 12rem;
+    }
+    section .row .column{
+        padding: 6rem 4rem;
+    }
+    .hero-btns{
+        width: 70%;
+        margin: auto;
+        justify-content: space-around;
+        gap: 0;
+    }
+    .newsletters{
+        padding: 3rem 12rem;
+    }
+    .newsletters .wrapper{
+        padding: 3rem 7rem;
+    }
+    .footer-wrapper{
+        grid-template-columns: 1fr ;
+        text-align: center;
+    }
+    .footer-wrapper p{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .footer-wrapper .social-links{
+        justify-content: center;
+    }
+}
+/* Small Devices: Landscape phones */
+@media only screen and (max-width: 767px) {
+    /* body{
+        background-color: green;
+    } */
+	html {
+		font-size: 56.25%;
+	}
+    button,
+    p{
+        font-size: 1.6rem;
+    }
+    nav .fas,
+    #logo{
+        font-size: 2.2rem;
+    }
+    nav i.fas{
+        display: block;
+       
+    }
+    nav ul{
+        height: calc(100vh - 40.15px);
+        width: 100vw;
+        position: fixed;
+        top: 40.15px;
+        left: -100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(
+            135deg,
+            var(--clr-theme),
+            var(--clr-theme-dark)
+        );
+        transition: 1s;
+    }
+    nav ul li a:before{
+        background-color: var(--clr-white);
+    }
+    section,
+    footer{
+        padding: 5rem;
+    }
+    .newsletters{
+        padding: 3rem 5rem;
+    }
+    .newsletters .wrapper{
+        padding: 3rem 4rem;
+    }
+    #scroll-top-btn{
+        height: 6rem;
+        width: 6rem;
+    }
+}
+/* Extra Small Devices: Potrait Phones*/
+@media only screen and (max-width: 575px) {
+    /* body{
+        background-color: pink;
+    }  */
+	html {
+		font-size: 50%;
+	}
+    button,
+    p{
+        font-size: 1.7rem;
+    }
+    nav ul{
+        height: calc(100vh - 35.93px);
+        top: 35.93px
+    }
+    .hero-btns{
+        width: 100%;
+    }
+    section,
+    footer{
+        padding: 5rem 2rem;
+    }
+    .newsletters{
+        padding: 3rem 2rem;
+    }
+    .newsletters form{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .newsletters form input,
+    .newsletters form button{
+        width: 100%;
+    }
+    input[type="email"]{
+        padding: 1.7rem 2rem;
+    }
+}
+/* Extra Large Devices */
+@media only screen and (min-width: 1199px) {
+    /* body{
+        background-color: brown;
+    } */
+	html {
+		font-size: 75%
+	}
+}
